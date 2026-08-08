@@ -38,3 +38,11 @@ curl -X POST http://localhost:8000/demo/gust \
 
 ###Reset demo:
 curl -X POST http://localhost:8000/demo/reset
+
+### 2.Frontend
+cd frontend
+npm install
+npm run dev
+
+Open:
+http://localhost:5173
