@@ -30,8 +30,11 @@ http://localhost:8000/health
 http://localhost:8000/state
 http://localhost:8000/stream
 
-Trigger demo gust:
+###Trigger demo gust:
 
 curl -X POST http://localhost:8000/demo/gust \
   -H "Content-Type: application/json" \
   -d '{"duration_s": 240, "target_wind_mps": 15}'
+
+###Reset demo:
+curl -X POST http://localhost:8000/demo/reset
