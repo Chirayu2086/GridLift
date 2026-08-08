@@ -1,0 +1,30 @@
+gridlift-ai/
+├── .gitignore
+├── README.md
+├── demo/
+│   └── demo_script.md
+├── backend/
+│   ├── requirements.txt
+│   ├── config.py
+│   ├── physics.py
+│   ├── weather.py
+│   ├── engine.py
+│   ├── main.py
+│   └── Dockerfile
+└── frontend/
+    ├── package.json
+    ├── vite.config.js
+    ├── index.html
+    ├── .env.example
+    ├── Dockerfile
+    └── src/
+        ├── main.jsx
+        ├── index.css
+        ├── styles.js
+        ├── App.jsx
+        └── components/
+            ├── KPICard.jsx
+            ├── CapacityBar.jsx
+            ├── DispatchPanel.jsx
+            ├── LimitChart.jsx
+            └── TemperatureChart.jsx
